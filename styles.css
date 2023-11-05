@@ -1,0 +1,37 @@
+.Body {
+  background-color: #141e46;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.Text {
+  color: #fff5e0;
+  font-family: "Ruge Boogie", cursive;
+  font-size: 35px;
+}
+
+.Title {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 70px;
+}
+
+.Players {
+  padding-bottom: 25px;
+}
+
+.Number {
+  color: #ff6969;
+}
+
+.Conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+}
