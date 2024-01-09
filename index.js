@@ -48,5 +48,8 @@ function Dice() {
   }
   return Player1;
 }
-var result = Dice();
+button.addEventListener("click", () => {
+  Dice();
+});
+
 console.log(result);
