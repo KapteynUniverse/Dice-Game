@@ -1,57 +1,72 @@
-.Body {
-  background-color: #141e46;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
+body {
+  background-color: #5f8670;
 }
 
-.Text {
-  color: #fff5e0;
-  font-family: "Ruge Boogie", cursive;
-  font-size: 35px;
+.text {
+  color: #ff9800;
+  font-size: 4rem;
 }
 
-.Title {
-  text-align: center;
-  padding-top: 50px;
-  font-size: 70px;
-}
-
-.Players {
-  padding-bottom: 25px;
-}
-
-.Number {
-  color: #ff6969;
-}
-
-.Conteiner {
+.title {
+  margin-top: 0px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  font-size: 8rem;
+  color: #ff9800;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
-.styled {
-  border: 0;
-  line-height: 2.5;
-  padding: 0 25px;
-  font-size: 1rem;
-  text-align: center;
+.flex {
+  display: flex;
+  gap: 50px;
+  justify-content: space-evenly;
+}
+
+.button-44 {
+  background: #820300;
+  border-radius: 11px;
+  box-sizing: border-box;
   color: #fff;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 20px;
-  background-color: rgba(156, 6, 12, 1);
-
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  font-family: Mija, -apple-system, BlinkMacSystemFont, Roboto, "Roboto Slab",
+    "Droid Serif", "Segoe UI", system-ui, Arial, sans-serif;
+  font-size: 1.15em;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 33.4929px;
+  padding: 0.8em 1em;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+  text-underline-offset: 1px;
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  word-break: break-word;
+  border: 0;
 }
 
-.styled:active {
-  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+.button-44:active,
+.button-44:focus {
+  border-bottom-style: none;
+  border-color: #dadada;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 3px 3px inset;
+  outline: 0;
+}
+
+.button-44:hover {
+  border-bottom-style: none;
+  border-color: #dadada;
 }
 
 footer {
   text-align: center;
   margin-top: 100px;
+  background-color: #820300;
+}
+
+.footer {
+  font-size: 2rem;
 }
